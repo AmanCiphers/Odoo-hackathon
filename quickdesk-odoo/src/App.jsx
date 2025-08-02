@@ -1,17 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import LoginPage from './components/login-page'
+// src/App.jsx
+import { Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Dashboard from './components/dashboard';
+import CreateTicket from './components/CreateTicket';
+import ViewTickets from './components/ViewTickets';
+import TicketHistory from './components/TicketHistory';
+import LoginPage from './components/loginPage';
+import SignupPage from './components/signupPage';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <LoginPage></LoginPage>
-    </>
-  )
+    <Routes>
+      {/* Public routes */}
+      <Route path="/" element={<Dashboard />} />
+      <Route path="/signup" element={<SignupPage />} />
+
+      {/* Protected layout with sidebar */}
+      <Route element={<Layout />}>
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/create-ticket" element={<CreateTicket />} />
+        <Route path="/view-tickets" element={<ViewTickets />} />
+        <Route path="/history" element={<TicketHistory />} />
+        <Route path="/loginPage" element={<LoginPage />} />
+      </Route>
+    </Routes>
+  );
 }
 
-export default App
+export default App;

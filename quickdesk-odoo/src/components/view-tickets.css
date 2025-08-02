@@ -1,0 +1,41 @@
+/* src/components/view-tickets.css */
+
+.view-tickets-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.view-tickets-container h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.tickets-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.tickets-table thead {
+    background-color: #f0f0f0;
+}
+
+.tickets-table th,
+.tickets-table td {
+    padding: 14px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tickets-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.tickets-table td {
+    color: #555;
+}
