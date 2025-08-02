@@ -22,7 +22,7 @@ body {
 
 .left-side {
     width: 50%;
-    background-color: #007bff;
+    background-color: #504A54;
     color: white;
     display: flex;
     flex-direction: column;
@@ -75,7 +75,7 @@ body {
 .login-form button {
     margin-top: 25px;
     padding: 12px;
-    background-color: #007bff;
+    background-color: #504A54;
     color: white;
     border: none;
     border-radius: 6px;
@@ -84,7 +84,7 @@ body {
 }
 
 .login-form button:hover {
-    background-color: #0056b3;
+    background-color: #68636c;
 }
 
 .left-side img {
@@ -100,4 +100,23 @@ a {
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
+}
+
+.btn {
+    margin-top: 25px;
+        padding: 12px;
+        background-color: #504A54;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 16px;
+        text-align: center;
+
+        
+}
+
+.btn:hover{
+
+    background-color: #68636c;
 }

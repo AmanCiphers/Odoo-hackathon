@@ -1,0 +1,33 @@
+
+
+.profile-section {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    width:20em;
+}
+
+.profile-details {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-details li {
+    margin-bottom: 0.5rem;
+}
+
+.cards {
+    display: flex;
+    gap: 1rem;
+}
+
+.card {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}

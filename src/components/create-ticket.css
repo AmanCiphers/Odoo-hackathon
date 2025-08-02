@@ -43,7 +43,7 @@
 
 .ticket-form button {
     padding: 12px;
-    background-color: #007bff;
+    background-color: #504A54;
     color: white;
     border: none;
     border-radius: 8px;
@@ -53,5 +53,5 @@
 }
 
 .ticket-form button:hover {
-    background-color: #0056b3;
+    background-color: #504A54;
 }

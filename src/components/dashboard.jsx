@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Dashboard = () => {
   return (
     <div className="dashboard-container">
-      {/* Sidebar */}
+    
 
       {/* Main Content */}
       <main className="main-content">
@@ -13,7 +13,14 @@ const Dashboard = () => {
         <section className="content">
           <h3>Dashboard Overview</h3>
           <div className="cards">
-            {/* You can add dashboard cards here */}
+            <div className="profile-section">
+              <h4>👤 Profile Details</h4>
+              <ul className="profile-details">
+                <li><strong>Name:</strong> Kabir Singh</li>
+                <li><strong>Email:</strong> kabir@example.com</li>
+                <li><strong>Logged in as:</strong> User</li>
+              </ul>
+            </div>
           </div>
         </section>
       </main>

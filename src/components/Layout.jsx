@@ -1,6 +1,6 @@
 // src/components/Layout.jsx
 import { Outlet, NavLink } from 'react-router-dom';
-import './dashboard.css'; // Make sure this file exists
+import './layout.css'; // Make sure this file exists
 
 const Layout = () => {
     return (
@@ -9,16 +9,16 @@ const Layout = () => {
                 <h2 className="logo">Dashboard</h2>
                 <nav className="nav-links">
                     <NavLink to="/dashboard">Dashboard</NavLink>
-                    <NavLink to="/create-ticket">Create Ticket</NavLink>
-                    <NavLink to="/view-tickets">View Tickets</NavLink>
-                    <NavLink to="/history">History</NavLink>
+                    <NavLink to="/create-ticket">Report an Issue</NavLink>
+                    <NavLink to="/view-tickets">Tickets Status</NavLink>
+                    <NavLink to="/history">Ticket History</NavLink>
                     <NavLink to="/loginPage">Login</NavLink>
                 </nav>
             </aside>
 
             <main className="main-content">
                 <header className="topbar">
-                    <h2>Welcome, user</h2>
+                    <h2>Welcome, Kabir</h2>
                 </header>
                 <section className="content">
                     <Outlet />
