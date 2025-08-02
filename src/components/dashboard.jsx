@@ -16,9 +16,9 @@ const Dashboard = () => {
             <div className="profile-section">
               <h4>👤 Profile Details</h4>
               <ul className="profile-details">
-                <li><strong>Name:</strong> Kabir Singh</li>
-                <li><strong>Email:</strong> kabir@example.com</li>
-                <li><strong>Logged in as:</strong> User</li>
+                <li><strong>Name:</strong> Admin</li>
+                <li><strong>Email:</strong> Admin@example.com</li>
+                <li><strong>Logged in as:</strong> Admin</li>
               </ul>
             </div>
           </div>

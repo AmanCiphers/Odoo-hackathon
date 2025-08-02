@@ -28,7 +28,7 @@ const dummyTickets = [
 const ViewTickets = () => {
     return (
         <div className="view-tickets-container">
-            <h2>My Tickets</h2>
+            <h2>Open Tickets</h2>
             <table className="tickets-table">
                 <thead>
                     <tr>

@@ -9,16 +9,16 @@ const Layout = () => {
                 <h2 className="logo">Dashboard</h2>
                 <nav className="nav-links">
                     <NavLink to="/dashboard">Dashboard</NavLink>
-                    <NavLink to="/create-ticket">Report an Issue</NavLink>
-                    <NavLink to="/view-tickets">Tickets Status</NavLink>
-                    <NavLink to="/history">Ticket History</NavLink>
-                    <NavLink to="/loginPage">Login</NavLink>
+                    <NavLink to="/create-ticket">Manage Users</NavLink>
+                    <NavLink to="/view-tickets">Manage Staff</NavLink>
+                    <NavLink to="/history">Ticket Categories</NavLink>
+                    <NavLink to="/loginPage">Log Out</NavLink>
                 </nav>
             </aside>
 
             <main className="main-content">
                 <header className="topbar">
-                    <h2>Welcome, Kabir</h2>
+                    <h2>Welcome, Admin</h2>
                 </header>
                 <section className="content">
                     <Outlet />
